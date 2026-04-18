@@ -4,7 +4,7 @@ A minimalist real-time hardware monitor for LLM workloads, right in PowerShell t
 
 <p align="center">
   <picture>
-    <img width="1148" height="764" alt="hwira" src="https://github.com/user-attachments/assets/694bffe8-fa6f-4979-b36b-aeefd655097a" />
+    <img width="1148" alt="hwira" src="https://github.com/user-attachments/assets/694bffe8-fa6f-4979-b36b-aeefd655097a" />
   </picture>
 </p>
 
