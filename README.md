@@ -3,7 +3,9 @@
 A minimalist real-time hardware monitor for LLM workloads, right in PowerShell terminal. One script, no dependencies, no GUI – just a calm dashboard of what your machine is actually doing while a model is loaded.
 
 <p align="center">
-  <img width="1148" height="764" alt="hwira" src="https://github.com/user-attachments/assets/694bffe8-fa6f-4979-b36b-aeefd655097a" />
+  <picture>
+    <img width="1148" height="764" alt="hwira" src="https://github.com/user-attachments/assets/694bffe8-fa6f-4979-b36b-aeefd655097a" />
+  </picture>
 </p>
 
 It shows NVIDIA GPU load / VRAM / temperature / power, system memory, and (when toggled on) CPU, disk and network throughput. Each metric is rendered as a progress bar, a delta vs. the previous tick, and a 12-point sparkline.
