@@ -16,7 +16,7 @@ Static info about the machine (OS build, CPU model, RAM type and frequency, disk
 
 **Option 1: Run directly from GitHub**
 ```powershell
-irm https://raw.githubusercontent.com/penumbral/hwira/refs/heads/main/hwira.ps1 -OutFile "$env:TEMP\hwira.ps1"; powershell -NoProfile -ExecutionPolicy Bypass -File "$env:TEMP\hwira.ps1"
+irm https://raw.githubusercontent.com/penumbral/hwira/refs/heads/main/hwira.ps1 -OutFile "$env:TEMP\hwira.ps1"; powershell -NoProfile -ExecutionPolicy Bypass -File "$env:TEMP\hwira.ps1"; Remove-Item "$env:TEMP\hwira.ps1" -ErrorAction SilentlyContinue
 ```
 
 **Option 2: Download and run locally**
